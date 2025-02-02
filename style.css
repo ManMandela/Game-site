@@ -23,7 +23,7 @@ body {
     }
 }
 .footer-link:nth-child(2){
-    margin: 0 !important
+    margin: 0px !important;
 }
 .hero-title {
     font-size: 64px;
@@ -115,6 +115,7 @@ body {
         font-size: 38px;
     }
     .footer-content {
+        display: flex;
         flex-direction: column;
     }
     .footer-link:nth-child(2) {
@@ -123,7 +124,7 @@ body {
 }
 .logo {
     animation-name: rotation;
-    animation-duration: 8s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
