@@ -1,0 +1,60 @@
+extends ../layouts/pages-layout
+block title 
+    - var title ="Фортнайт"
+block content
+    header
+        .fortnite-box
+            .container-xl.p-0
+                .container
+                    .row
+                        .col-xxl-6.col-xl-6.col-lg-6.col-md-12
+                            .hero-section.pt-5
+                            h1.hero-title.text-white.m-0 Fortnite
+                            p.hero-desc.text-white.my-5
+                            |   Fortnite — компьютерная онлайн-игра, разработанная американской компанией Epic Games совместно с People Can Fly и выпущенная в ранний доступ в 2017 году.   
+                            p.hero-desc.text-white
+                            |   Fortnite предлагает игрокам на выбор три раздельных режима: Fortnite: Save the World, кооперативный симулятор выживания с открытым миром, в котором игрокам предлагается сообща отбиваться от монстров, похожих на зомби, с помощью оружия и различных построек; Fortnite: Battle Royale — соревновательный режим в жанре королевской битвы, в котором 100 игроков должны сражаться друг с другом, пока в живых не останется только один; и добавленный в 2018 году режим Fortnite: Creative, режим-«песочница», в котором игроки могут самостоятельно создавать различные сооружения. Fortnite: Save the World был выпущен на платформах Windows, macOS, PlayStation 4 и Xbox One, а Fortnite: Battle Royale и Fortnite: Creative, помимо перечисленных платформ, также и на портативных устройствах — Nintendo Switch, iOS и Android. Игра распространяется преимущественно посредством цифровой дистрибуции по модели free-to-play; изданием версий игры на физических носителях занимается компания Gearbox Publishing.
+        .img-mobile
+            img(src='./img/pic/fortnite-big.png' alt='')
+    main
+        section.gallery.pt-5
+            .container-xl.p-0
+                .container
+                    h1.gallery-title Галерея
+                    .swiper.mySwiper
+                        .swiper-wrapper
+                            .swiper-slide
+                                img(src='./img/pic/slider/fortnite-slide-1.png' alt='')
+                            .swiper-slide
+                                img(src='./img/pic/slider/fortnite-slide-2.png' alt='')
+                    .swiper-button-next
+                    .swiper-button-prev
+        section.articles.py-5
+            .container-xl.p-0
+                .container
+                    h1.gallery-title Статьи
+                        .row
+                            .col-md-4
+                                .card
+                                    .card-body
+                                        img.card-img-top.mb-4(src='./img/pic/articles/fortnite-article-1.png' alt='...')
+                                        h5.card-title Рецензия на Fortnite. 
+                                        p.card-text
+                                        |   Хороша ли игра?
+                                        a.btn.btn-primary(href='#') Читать
+                            .col-md-4
+                                .card
+                                    .card-body
+                                        img.card-img-top.mb-4(src='./img/pic/articles/fortnite-article-2.png' alt='...')
+                                        h5.card-title МГЕ братья в Fortnite?
+                                        p.card-text
+                                        |   Tick tock.
+                                        a.btn.btn-primary(href='#') Читать                   
+                            .col-md-4
+                                .card
+                                    .card-body
+                                        img.card-img-top.mb-4(src='./img/pic/articles/fortnite-article-3.png' alt='...')
+                                        h5.card-title Как украсть карточку у родителей и задонатить Fortnite?
+                                        p.card-text
+                                        |   Все очень просто!
+                                        a.btn.btn-primary(href='#') Читать
